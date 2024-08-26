@@ -1,0 +1,165 @@
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image: url(form_img.jpg);
+    background-size: cover;
+   background-position: center;
+}
+   
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-decoration: none;
+}
+.header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 1px solid black; 
+}
+
+li { 
+     display: inline-block;}
+.header a  {
+     margin: 6px;
+     border: 1px solid black;
+     padding: 6px;
+     border-radius: 5px;
+     cursor: pointer;
+     box-shadow: 0 3px 0 black;
+     font-weight: bold;
+     color: #000;
+ }
+ .header a:hover{
+     background: black;
+     color: #fff;
+     transform: translateY(-5px);
+     transition: 0.3s;
+ }
+
+ .parentop{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+
+ .parent{
+    max-width: 1200px;
+    width: 100%;
+    height:500px;
+    display: flex;
+
+ }
+
+ .child-one{
+    width: 40%;
+    height: 100%;
+    background:#063875;
+    display: flex;
+   flex-direction: column;
+   gap: 15px;
+   padding: 15px;
+   text-align: left;
+   justify-content: center;
+   color: #fff;
+ }
+ span{
+    color: blueviolet;
+ }
+table{
+    margin-top: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+
+ .child-two{
+    width: 35%;
+    height: 100%;
+ }
+ img{
+    width: 100%;
+    height: 100%;  
+ }
+ .child-three {
+    width: 25%;
+    height: 100%;
+ }
+
+ form{
+   background: rgba(134, 124, 124, 0.203);
+   backdrop-filter: blur(5px);
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 25px;
+   padding: 20px;
+}
+form .loginhere{
+   color:#fff;
+   background-color: #000;
+   text-align: center;
+   padding: 8px 0;
+   border-radius: 5px;
+   font-weight: bold;
+}
+   
+ form input{
+   color: #fff;
+   padding: 7px 0;
+   outline: none;
+   border: none;
+   border-bottom: 2px solid rgb(14, 1, 1);
+   border-radius: 5px;
+   background: transparent;
+}
+::placeholder{
+   color: #fff;
+}
+form .login{
+   color: #fff;
+   background: scroll;
+   text-align: center;
+   background: #000;
+   border-radius: 5px;
+   font-weight: bold;
+   padding: 8px 0;
+}
+form .sign{
+   color:white;
+   font-weight: bold;
+   
+  
+}
+form p{
+   text-align: center;
+   width: 70%;
+   margin: 0 auto;
+}
+
+.next{
+   color: #fff;
+   display: flex;
+   margin-top: 20px;
+   font-size: 22px;
+   width:fit-content;
+   padding: 8px 15px;
+  
+}
+.next:hover{
+   background: #0000004c;
+   border-radius: 6px;
+  
+}
+   
+
